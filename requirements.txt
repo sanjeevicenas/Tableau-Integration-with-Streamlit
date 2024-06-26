@@ -1,3 +1,2 @@
-streamlit
-tableauserverclient
-pandas==1.0.0
+tableauserverclient==0.4
+
