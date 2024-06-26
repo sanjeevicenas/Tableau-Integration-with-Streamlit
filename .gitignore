@@ -1,3 +1,4 @@
 # created by virtualenv automatically
 /Tableau_streamlit_integration/
+.idea
 secrets.toml
