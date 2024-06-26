@@ -1,2 +1,2 @@
-tableauserverclient==0.31
+tableauserverclient==0.28
 
