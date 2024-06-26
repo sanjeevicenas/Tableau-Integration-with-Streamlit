@@ -1,9 +1,9 @@
 # streamlit_app.py
-from io import StringIO
+# from io import StringIO
 
 import streamlit as st
 import tableauserverclient as TSC
-import pandas as pd
+# import pandas as pd
 
 
 # Set up connection.
@@ -63,6 +63,6 @@ st.subheader("🖼️ Image")
 st.write(f"Here's what view *{view_name}* looks like:")
 st.image(view_image, width=800)
 
-st.subheader("📊 Data")
-st.write(f"And here's the data for view *{view_name}*:")
-st.write(pd.read_csv(StringIO(view_csv)))
+# st.subheader("📊 Data")
+# st.write(f"And here's the data for view *{view_name}*:")
+# st.write(pd.read_csv(StringIO(view_csv)))
